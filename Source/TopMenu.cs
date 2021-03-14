@@ -106,7 +106,7 @@ namespace Benchwarp
 
             sceneNamePanel = new CanvasPanel
                 (_canvas, GUIController.Instance.images["ButtonsMenuBG"], new Vector2(0f, 0f), new Vector2(1346f, 0f), new Rect(0f, 0f, 0f, 0f));
-            sceneNamePanel.AddText("SceneName", "Tutorial_01", new Vector2(5f, 1060f), Vector2.zero, GUIController.Instance.TrajanNormal, 18);
+            sceneNamePanel.AddText("SceneName", "Tutorial_01", new Vector2(5f, 1005f), Vector2.zero, GUIController.Instance.TrajanNormal, 18);
 
             rootPanel = new CanvasPanel
                 (_canvas, GUIController.Instance.images["ButtonsMenuBG"], new Vector2(342f, 15f), new Vector2(1346f, 0f), new Rect(0f, 0f, 0f, 0f));
